@@ -22,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../дз3/html parser" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GIT/test/multi_thread_file_download" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -72,30 +72,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1585993374261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585993374261" />
     <state x="484" y="254" width="397" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577305642223">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="254" width="397" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1577305642223" />
-    <state x="389" y="107" key="FileChooserDialogImpl" timestamp="1585917004675">
+    <state x="389" y="107" key="FileChooserDialogImpl" timestamp="1585995560180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585917004675" />
-    <state width="1322" height="266" key="GridCell.Tab.0.bottom" timestamp="1585917005534">
+    <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585995560180" />
+    <state width="1322" height="217" key="GridCell.Tab.0.bottom" timestamp="1585995560992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585917005534" />
-    <state width="1322" height="266" key="GridCell.Tab.0.center" timestamp="1585917005534">
+    <state width="1322" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.0.center" timestamp="1585995560992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585917005534" />
-    <state width="1322" height="266" key="GridCell.Tab.0.left" timestamp="1585917005534">
+    <state width="1322" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.0.left" timestamp="1585995560991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585917005534" />
-    <state width="1322" height="266" key="GridCell.Tab.0.right" timestamp="1585917005534">
+    <state width="1322" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585995560991" />
+    <state width="1322" height="217" key="GridCell.Tab.0.right" timestamp="1585995560992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585917005534" />
+    <state width="1322" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1585995560992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1585995560992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1585995560992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1585995560992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585995560992" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1585635141835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -106,13 +126,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/parser/DownloadResult.java</url>
-          <line>21</line>
+          <line>12</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/parser/PictureLinks.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/parser/Task.java</url>
+          <line>36</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/parser/Task.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

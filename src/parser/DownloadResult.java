@@ -1,22 +1,13 @@
 package parser;
 
-import org.jsoup.select.Elements;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class DownloadResult {
 
-    ArrayList<String> downloadErrors;
-    ArrayList <String> downloadedLinks;
+    private Set<String> downloadErrors = ConcurrentHashMap.newKeySet();;
 
-    public DownloadResult (ArrayList<String> downloadErrors, ArrayList <String> downloadedLinks)
-
-    {
-        this.downloadErrors=downloadErrors;
-        this.downloadedLinks=downloadedLinks;
-
-    }
+    private Set <String> downloadedLinks = ConcurrentHashMap.newKeySet();;
 
     public void printDownloadedLinks () {
         downloadedLinks.forEach(System.out::println);
@@ -30,7 +21,11 @@ public class DownloadResult {
         System.out.println(downloadErrors.size() + " ссылок не удалось загрузить");
     }
 
+    public Set<String> getDownloadErrors() {
+        return downloadErrors;
+    }
 
-
-
+    public Set<String> getDownloadedLinks() {
+        return downloadedLinks;
+    }
 }

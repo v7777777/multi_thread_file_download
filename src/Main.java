@@ -1,37 +1,40 @@
-import parser.DownloadResult;
-import parser.HtmlParser;
-import parser.PictureLinks;
-
+import parser.*;
 import java.io.IOException;
-import java.util.List;
+import java.util.concurrent.*;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
 
-long start = System.currentTimeMillis();
-        try {
+        long start = System.currentTimeMillis();
 
             String page = "https://lenta.ru/";
             String downloadFolder = "C:\\Users\\v.lesina\\Downloads\\pics";
-            List<String> picsLinks = HtmlParser.parse(page).getTextLinks();
 
-            System.out.println(System.currentTimeMillis()-start);
-            DownloadResult downloadResult =  PictureLinks.downloadPics(picsLinks, downloadFolder);
+            ConcurrentLinkedQueue<String> picsLinks = HtmlParser.parse(page).getTextLinks();
+
+            ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(8);
+
+            Thread.sleep(4000);
+
+            DownloadResult downloadResult = new DownloadResult();
+
+            for (int i =0; i < (picsLinks.size() - 1); i ++)  {
+
+            executor.submit(new Task(downloadFolder, picsLinks, downloadResult));  }
+
+            downloadResult = executor.submit(new Task(downloadFolder, picsLinks, downloadResult)).get();
+
+            executor.shutdown();
+
             downloadResult.printDownloadedLinks();
             downloadResult.countDownloadErrors();
             downloadResult.countDownloadedLinks();
 
+            System.out.println(System.currentTimeMillis()-start);
 
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println(System.currentTimeMillis()-start);
+}
 
 
-
-
-
-}}
+}
